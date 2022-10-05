@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sait-LR-7.1</title>
+    <link rel="icon" href="logo2.icon" type="image/x-icon">
+<body>
+
+
+
+</body>
+
+<style>
+
+    @keyframes change-background {
+        0% {
+            background:#FF9999;}
+        75% {
+            background:#FFCC99;}
+        75% {
+            background:#FFFF99;}
+        75% {
+            background:#CCFF99;}
+        75% {
+            background:#99FF99;}
+        75% {
+            background:#99FFCC;}
+        75% {
+            background:#99FFFF;}
+        75% {
+            background:#99CCFF;}
+        75% {
+            background:#9999FF;}
+        75% {
+            background:#FF99FF;}
+        100% {
+            background:#FF99CC;}
+    }
+    body {
+        animation:change-background 10s ease infinite;
+    }
+
+    header, nav, article, aside, footer,aside1,.search, .searchBtn,login{
+
+        border: 3px solid #4a007c;
+
+
+    }
+    header, footer, article, aside {
+        margin-bottom: 1em;
+    }
+    html,body { height:100%}
+    .wrapper {
+        position:relative;
+        min-height:100%;
+    }
+    .content {
+        padding-bottom:100px;
+    }
+
+
+
+    header, footer {
+        background: #7272a1;
+        width: 100%;
+        max-width:100%;
+        color: rgb(197, 197, 197);
+        border-radius:30px;
+        height: 10%;
+        box-shadow: rgba(0,0,0,0.38) 4px 10px 15px 1px;
+    }
+
+
+
+    .search {
+
+        display: flex;
+        background: #7272a1;
+        width: 360px;
+        height: 40px;
+        color: rgb(255, 255, 255);
+        border-radius: 40px;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-shadow: rgba(0,0,0,0.38) 4px 10px 15px 1px;
+    }
+
+    .searchBtn {
+
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background: darkslateblue;
+        display: flex;
+
+        justify-content: center;
+        align-content: center;
+        transition:0.4s ;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .searchBtn >i {
+
+        font-size: 30px;
+    }
+    .search:hover > .searchText{
+
+        width: 240px;
+        padding: 0 6px;
+    }
+    .searchText {
+
+        border: none;
+        background:wheat;
+        outline: none;
+        padding: 0;
+        border-radius:30px;
+        color: #fdfdfd;
+        font-size: 16px;
+        transition:0.4s ;
+        line-height: 40px;
+        width: 0;
+        font-weight: bold;
+    }
+
+    .search:hover > .searchBtn {
+
+        background: #7272a1;
+        color: #ffffff;
+    }
+
+    .search:hover > .searchBtn:hover {
+
+        background: darkslateblue;
+
+    }
+
+    article {
+        background: #7272a1;
+        width:20.33%;
+        position:relative;
+        min-height:50%;
+        color: rgb(197, 197, 197);
+        border-radius:30px;
+        float:left;
+        box-shadow: rgba(0,0,0,0.38) 4px 10px 15px 1px;
+    }
+    aside {
+        width:78%;
+        background: #7272a1;
+        margin-right: auto;
+        float:right;
+        position:relative;
+        min-height:30%;
+        color: rgb(197, 197, 197);
+        border-radius:30px;
+        box-shadow: rgba(0,0,0,0.38) 4px 10px 15px 1px;
+
+    }
+
+    aside1 {
+        width:78%;
+        background: #7272a1;
+        margin-right: auto;
+        float:right;
+        position:relative;
+        color: rgb(197, 197, 197);
+        min-height:30%;
+        border-radius:30px;
+        box-shadow: rgba(0,0,0,0.38) 4px 10px 20px 1px;
+        margin-bottom: 10px;
+    }
+
+
+
+    footer {
+
+        background: #7272a1;
+        padding: 5px;
+        color: rgb(197, 197, 197);
+        clear: left;
+        border-radius:30px;
+        box-shadow: rgba(0,0,0,0.38) 4px 10px 20px 1px;
+        margin-bottom: 10px;
+    }
+
+</style>
+
+<head>
+</head>
+<body>
+
+<td>
+    <center><img src="logo.png" width=150px height=150px></center>
+</td>
+
+<header><br><img src="exit.png" width=150px height=70px></header>
+
+<body>
+<div class="search">
+
+    <input type="text" class="searchText" placeholder="Поиск...">
+    <a class="searchBtn">
+        <i class="fas fa-search"></i>
+    </a>
+</div>
+
+</body>
+
+<article><big><center><h2>Навигация</h2></center>
+    <br>
+    <hr>
+    <h3><img  src="logo.png" width=30px height=30px> Главная</h3>
+    <hr>
+    <h3><img  src="logo.png" width=30px height=30px> Новости</h3>
+    <hr>
+    <h3><img  src="logo.png" width=30px height=30px> Видео</h3>
+    <hr>
+    <h3><img  src="logo.png" width=30px height=30px> Фото</h3>
+    <hr>
+
+    <h3><img  src="logo.png" width=30px height=30px> Файлы</h3>
+    <hr>
+
+    <h3><img  src="logo.png" width=30px height=30px> Уведомления</h3>
+
+</big>
+
+</article>
+<aside><big><center><h2>Новости дня</h2></center></big>
+    <br>
+    <hr>
+    <img src="logo.png" width=100px height=100px>
+    <center><h4>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст
+    <br>
+        Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</h4></center>
+
+
+</aside>
+
+<aside1>
+    <img src="logo.png" width=100px height=100px>
+    <center><h4>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст
+        <br>
+        Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</h4></center>
+</aside1>
+
+<br>
+<br>
+<footer><center><br>Лабораторная работа №7/1
+    <br>
+    «Разработка графических макетов и дизайна web – приложения»
+    <br>
+    Пятница С. ИР-20-4</center>
+</footer>
+</body>
+</html>
